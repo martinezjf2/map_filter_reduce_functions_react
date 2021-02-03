@@ -42,7 +42,7 @@ var numbers = [3, 56, 2, 48, 5];
 import emojipedia from "./emojipedia";
 
 const newPedia = emojipedia.map(function (pedia) {
-  return pedia.meaning.substring(1, 100);
+  return pedia.meaning.substring(0, 100);
 });
 
 console.log(newPedia);
