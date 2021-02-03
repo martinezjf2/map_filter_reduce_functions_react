@@ -2,18 +2,24 @@ var numbers = [3, 56, 2, 48, 5];
 
 //Map -Create a new array by doing something with each item in an array.
 
-// function double(x) {
+// const newNumbers = numbers.map(function (x) {
 //   return x * 2;
-// }
-// const newNumbers = numbers.map(double);
-var newNumbers = [];
-function double(x) {
-  newNumbers.push(x * 2);
-}
-numbers.forEach(double);
-console.log(newNumbers);
+// });
+
+// var newNumbers = [];
+
+// numbers.forEach(function (x) {
+//   newNumbers.push(x * 2);
+// });
+// console.log(newNumbers);
 
 //Filter - Create a new array by keeping the items that return true.
+
+// const newArray = numbers.filter(function (num) {
+//   return num > 10;
+// });
+
+// console.log(newArray);
 
 //Reduce - Accumulate a value by doing something to each item in an array.
 
