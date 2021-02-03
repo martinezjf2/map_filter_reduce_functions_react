@@ -38,3 +38,11 @@ var numbers = [3, 56, 2, 48, 5];
 // console.log(newNumber);
 
 //FindIndex - find the index of the first item that matches.
+
+import emojipedia from "./emojipedia";
+
+const newPedia = emojipedia.map(function (pedia) {
+  return pedia.meaning.substring(1, 100);
+});
+
+console.log(newPedia);
